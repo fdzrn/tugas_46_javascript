@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tugas 46 | DOM JS</title>
+</head>
+<body>
+	<p>Click Untuk merubah Warna.</p>
+	<button onclick="myFunction()">Ubah Warna</button>
+	<script>
+		function myFunction() {
+			var warna =prompt("Ketikan Warna yang kamu inginkan");
+			if (warna != null) {
+				document.body.style.backgroundColor = warna;
+			}
+		}
+	</script>
+</body>
+</html>
